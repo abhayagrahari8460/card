@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+           
+        }
+        .outer{
+            height: 100vh;
+            width: 100vw;
+            background-color: aquamarine;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .container{
+            box-sizing: border-box;
+            border: 2px solid black;
+            height: 400px;
+            width: 800px;
+            margin: auto;
+
+        }
+        .column1{
+            height: 100%;
+            width: 100%;
+            
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start; /* Align items to the top */
+            justify-content: center;
+            padding: 20px;
+        }
+        .column2{
+            height: 100%;
+            width: 50%;
+            border: 2px solid black;
+        }
+        img{
+            height: 100%;
+            width: 100%;
+        }
+        .top{
+        
+        }
+    </style>
+</head>
+<body>
+    <div class="outer">
+    <div class="container">
+        <table>
+            <tr>
+                <td class="column1">
+                    <h2> Get insight that help your bussiness grow</h2>
+                    
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id itaque fugiat ut eum odio numquam!  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum, veritatis?
+                        </p>
+                </td>
+                <td class="column2">
+                  <img src="project 3.jpg" alt="this is an image">
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
+</body>
+</html>
